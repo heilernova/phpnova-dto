@@ -1,0 +1,19 @@
+{
+    "name": "phpnova/dto",
+    "description": "Librira para parcear array o objecs a una clase",
+    "type": "library",
+    "license": "GNP-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "Phpnova\\DTO\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Heile Nova",
+            "email": "heilernova@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

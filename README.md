@@ -1,1 +1,1 @@
-# phpnova-dto
+# PHPNova Data Transfer Object
