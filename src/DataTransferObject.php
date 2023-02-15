@@ -5,7 +5,7 @@ use Exception;
 use ReflectionClass;
 use ReflectionNamedType;
 
-class DTOClass
+class DataTransferObject
 {
     public function __construct(array|object $data)
     {
