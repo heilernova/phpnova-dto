@@ -18,7 +18,7 @@ class DataTransferObject
             $type = $property->getType();
             $attr = $property->getAttributes();
 
-            if (!array_key_exists($name, $data)){
+            if (!array_key_exists($name, $data) && !$property->isDefault()){
                 $errors[] = $name;
                 continue;
             }
